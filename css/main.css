@@ -1,0 +1,60 @@
+/* 
+    Web Design Group Project
+    Bishownath Dhakal and Yadab Neupane
+*/
+
+body {
+    margin: 0%;
+}
+
+
+.bg-image {
+    background-image: url("../images/customers.jpeg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: 1000px;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.nav {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    /* transition: 0.7s all; */
+}
+
+/* .nav ul li {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* navigation bar with a tag */
+a {
+    opacity: 0.8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: xx-large;
+    filter: alpha(opacity=50);
+
+}
+
+a:hover {
+    color: #000;
+    background-color: beige;
+}
