@@ -139,6 +139,10 @@ table {
     width: 20%;
 }
 
+.gallery_section {
+    margin-top: 50px;
+}
+
 footer {
     background-color: #fff;
     padding: 20px;
@@ -152,8 +156,24 @@ footer {
 .footer_contact {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 100px 100px 20px;
     font-size: xx-large;
     color: grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer_location_lists,
+.footer_opening_time_lists,
+.footer_contact_information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+a {
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: grey;
 }
