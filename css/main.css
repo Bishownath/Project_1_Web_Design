@@ -56,8 +56,8 @@ body {
 }
 
 .nav-link:hover {
-    color: #000;
-    background-color: beige;
+    color: rgb(137, 133, 133);
+    /* background-color: beige; */
     border-radius: 8px 20px;
 }
 
@@ -79,8 +79,12 @@ body {
 }
 
 .icons {
-    margin-top: 20%;
+    margin-top: 35%;
 }
+
+/* a.font_icon {
+    color: rgb(192, 152, 152);
+} */
 
 i {
     width: 50px;
@@ -137,6 +141,20 @@ table {
     border-collapse: collapse;
     align-self: center;
     width: 20%;
+}
+
+article {
+    max-width: 70%;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
 }
 
 .gallery_section {
