@@ -228,6 +228,8 @@ a {
 
 #menu{
     text-align: center;
+    font-family: 'Bad Script', cursive;
+    margin-top: 0%;
 }
 
 table {
@@ -263,7 +265,7 @@ td>p{
 }
 
 td>p:hover {
-    font-size: x-large; 
+    font-size: large; 
     cursor: pointer;
 }
 
