@@ -130,18 +130,7 @@ h2 {
     justify-content: center;
     text-align: center;
     width: 50%;
-}
-
-.menu {
-    display: flex;
-
-    justify-content: center;
-}
-
-table {
-    border-collapse: collapse;
-    align-self: center;
-    width: 20%;
+    min-height: 500px;
 }
 
 article {
@@ -235,4 +224,53 @@ a {
 
 .img_link:hover {
     background-color: rgb(61, 207, 224);
+}
+
+#menu{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    align-self: center;
+    margin-left: 0px;
+    width: 70%;
+    font-family: 'Bad Script', cursive;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+th {
+    background-color: #181415;
+    padding-left: 40px;
+    font-size: large;
+}
+
+td{
+    text-align: center;
+    padding-left: 40px;
+    font-size: medium;
+}
+
+td>p{
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+
+td>p:hover {
+    font-size: x-large; 
+    cursor: pointer;
+}
+
+.menuHeader {
+    color: white;
+}
+
+.amountBeforeDecimal{
+    font-size: x-large;
 }
