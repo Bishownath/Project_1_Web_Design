@@ -226,7 +226,7 @@ a {
     background-color: rgb(61, 207, 224);
 }
 
-#menu{
+#menu {
     text-align: center;
     font-family: 'Bad Script', cursive;
     margin-top: 0%;
@@ -240,10 +240,12 @@ table {
     font-family: 'Bad Script', cursive;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
-    
+
 }
 
 th {
@@ -252,20 +254,20 @@ th {
     font-size: large;
 }
 
-td{
+td {
     text-align: center;
     padding-left: 40px;
     font-size: medium;
 }
 
-td>p{
+td>p {
     font-size: small;
     margin: 0px;
     padding: 0px;
 }
 
 td>p:hover {
-    font-size: large; 
+    font-size: large;
     cursor: pointer;
 }
 
@@ -273,6 +275,74 @@ td>p:hover {
     color: white;
 }
 
-.amountBeforeDecimal{
+.amountBeforeDecimal {
     font-size: x-large;
+}
+
+.bg-image-contactus {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/customers.jpeg");
+    /* background-image: url("../images/customers.jpeg"); */
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
+
+#contactUsForm {
+    width: 60%;
+    margin-left: 5%;
+    align-content: center;
+    font-family: 'Bad Script', cursive;
+}
+
+#contactUsButton {
+    display: block;
+    margin: 15px 250px;
+    background-color: #4c2e11;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(136, 195, 246);
+    font-family: 'Bad Script', cursive;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+}
+
+.sub label {
+    flex-basis: 25%;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(55, 35, 35);
+    opacity: 1;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+
+.sub input {
+    margin: 2px 2px;
+    border: 1px solid #cccccc;
+    outline: 0;
+    height: 30px;
+    width: 50%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px
+}
+
+.sub textarea {
+    margin: 1px 1px;
+    border: 1px solid #cccccc;
+    outline: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px
 }
