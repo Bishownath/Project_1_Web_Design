@@ -130,18 +130,7 @@ h2 {
     justify-content: center;
     text-align: center;
     width: 50%;
-}
-
-.menu {
-    display: flex;
-
-    justify-content: center;
-}
-
-table {
-    border-collapse: collapse;
-    align-self: center;
-    width: 20%;
+    min-height: 500px;
 }
 
 article {
@@ -257,6 +246,15 @@ img {
     max-width: 100%;
 }
 
+.center_menu_section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100;
+    min-height: 500px;
+    margin-top: 5%;
+}
+
 .bg-image-gallery {
     max-width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wine.jpeg");
@@ -300,4 +298,123 @@ hr {
 .gallery_images:hover {
     opacity: 0.6;
     cursor: pointer;
+}
+
+#menu {
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    margin-top: 0%;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-self: center;
+    margin-left: 0px;
+    width: 70%;
+    font-family: 'Bad Script', cursive;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #181415;
+    padding-left: 40px;
+    font-size: large;
+}
+
+td {
+    text-align: center;
+    padding-left: 40px;
+    font-size: medium;
+}
+
+td>p {
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+
+td>p:hover {
+    font-size: large;
+    cursor: pointer;
+}
+
+.menuHeader {
+    color: white;
+}
+
+.amountBeforeDecimal {
+    font-size: x-large;
+}
+
+.bg-image-contactus {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wine.jpeg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
+#contactUsForm {
+    width: 60%;
+    margin-left: 5%;
+    align-content: center;
+    font-family: 'Bad Script', cursive;
+}
+
+#contactUsButton {
+    display: block;
+    margin: 15px 400px;
+    background-color: #4c2e11;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(136, 195, 246);
+    font-family: 'Bad Script', cursive;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+}
+
+.sub label {
+    flex-basis: 25%;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(55, 35, 35);
+    opacity: 1;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+}
+
+.sub input {
+    margin: 2px 2px;
+    border: 1px solid #cccccc;
+    outline: 0;
+    height: 30px;
+    width: 30%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px
+}
+
+.sub textarea {
+    margin: 1px 1px;
+    border: 1px solid #cccccc;
+    outline: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px
 }
