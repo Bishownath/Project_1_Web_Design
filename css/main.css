@@ -293,5 +293,11 @@ hr {
     margin-left: 20%;
     max-width: 90%;
     min-height: 200px;
+    opacity: 1;
 
+}
+
+.gallery_images:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }
