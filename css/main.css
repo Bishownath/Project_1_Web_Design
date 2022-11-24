@@ -249,6 +249,15 @@ img {
     max-width: 100%;
 }
 
+.center_menu_section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100;
+    min-height: 500px;
+    margin-top: 5%;
+}
+
 .bg-image-gallery {
     max-width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wine.jpeg");
@@ -319,14 +328,13 @@ td>p:hover {
 
 .bg-image-contactus {
     max-width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/customers.jpeg");
-    /* background-image: url("../images/customers.jpeg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wine.jpeg");
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 1000px;
+    height: 600px;
 }
 
 #contactUsForm {
@@ -338,7 +346,7 @@ td>p:hover {
 
 #contactUsButton {
     display: block;
-    margin: 15px 250px;
+    margin: 15px 400px;
     background-color: #4c2e11;
     border-radius: 5px;
     padding: 5px 5px;
@@ -370,7 +378,7 @@ td>p:hover {
     border: 1px solid #cccccc;
     outline: 0;
     height: 30px;
-    width: 50%;
+    width: 30%;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 12px
