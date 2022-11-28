@@ -3,6 +3,9 @@
     Web Design Group Project
     Bishownath Dhakal and Yadab Neupane
 */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0%;
@@ -26,7 +29,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .nav {
@@ -34,6 +37,13 @@ body {
     flex-direction: column;
     align-items: center;
     /* transition: 0.7s all; */
+    padding: 2%;
+    background-color: rgb(62, 61, 61);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border-radius: 8px;
+    width: 96%;
 }
 
 /* .nav ul li {
@@ -261,7 +271,7 @@ img {
 
 .bg-image-gallery {
     max-width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wine.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/whiskey.jpeg");
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
@@ -360,7 +370,7 @@ td>p:hover {
 
 .bg-image-contactus {
     max-width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wine.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact.jpeg");
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
@@ -506,6 +516,21 @@ td>p:hover {
     body {
         background-color: rgb(196, 201, 203);
         width: 100%;
+    }
+
+    .nav {
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        /* transition: 0.7s all; */
+        padding: 2%;
+        background-color: rgb(62, 61, 61);
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        margin: auto;
+        border-radius: 8px;
+        width: 96%;
     }
 
     .bg-image {
