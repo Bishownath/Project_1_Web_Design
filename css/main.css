@@ -42,7 +42,7 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    border-radius: 8px;
+    border-radius: 0px 0px 8px 8px;
     width: 96%;
 }
 
