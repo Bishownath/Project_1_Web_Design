@@ -473,7 +473,10 @@ td>p:hover {
 }
 
 /* animation */
-.text_logo {
+.text_logo,
+.text_contact,
+.text_about,
+.text_gallery {
     animation-name: slideInFromLeft;
     animation-duration: 1s;
     width: 100%;
@@ -511,6 +514,61 @@ td>p:hover {
 
 }
 
+/* about us */
+
+.team_grid_container {
+    background-color: #e9e6e6;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+.team_description {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.bio {
+    width: 90%;
+}
+
+.shortBio {
+    color: #ff5f13;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.team_image {
+    width: 90%;
+    opacity: 1;
+}
+
+.team_image:hover {
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.bg-image-about {
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/about.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
 @media only screen and (max-width: 899px) {
 
     body {
@@ -541,7 +599,11 @@ td>p:hover {
     .gallery_text,
     .contact {
         font-size: 50px;
+    }
 
+    .contact {
+        animation-name: slideInFromLeft;
+        animation-duration: 1s;
     }
 
     .nav {
@@ -633,5 +695,32 @@ td>p:hover {
         cursor: pointer;
         border-radius: 8px;
 
+    }
+
+    .team_grid_container {
+        display: block;
+    }
+
+    .team_image {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center; */
+        /* align-items: center; */
+        /* margin-top: 5%; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+        width: 50%;
+    }
+
+    .team {
+        padding-top: 50px;
+    }
+
+    .our_team {
+        background-color: #fff;
     }
 }
