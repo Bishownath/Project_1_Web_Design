@@ -12,6 +12,11 @@ body {
     max-width: 100%;
 }
 
+.backlink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 .bg-image {
     max-width: 100%;
