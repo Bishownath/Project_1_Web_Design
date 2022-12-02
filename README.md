@@ -8,6 +8,7 @@ Bishow created an index page.
 Yadab created a contact page.
 Bishow created a gallery and yadab added the image and both of us split the images to style them in the gallery.
 Bishow created a grid layout in the gallery
+Resolved the git conflict by yadab neupane.
 Yadab created a menu in the index page.
 Bishow created an about us page.
 Yadab added styles for the menu in the index page
