@@ -25,6 +25,20 @@ We have used the linear gradient for the background image in all the pages which
 <!-- #4. -->
 For the website accessibility, we have used the image alt tags in every images with its respective description which enhances the web accessibility.
 
+Proximity:
+- All the layouts and contents are easy to scan and read.
+- Grid layout has been added for the gallery and the image and menu content
+- All the related items has been placed together to make visual appeal.
+
+Contrast:
+- Different color has been used in the web page
+- Background linear gradient has been used to make the content highlighted.
+- Text sizes has been used to make the content look attractive and readable
+- In text, there is applied the letter spacing to make it more readable.
+
+Typography:
+- Typography has bee used to make a content readable and using this will provide a pleasant reading experience. All the factor like size, line height, letter spacing in heading tags has been used which is essential in building a website.
+
 
 <!-- #5. -->
 For the seo content we have used the meta tags for the keywords and also the meta tags for the description in the website by which I have listed some of the keywords that are used mostly by all the customers while searching for the drink in the web.
